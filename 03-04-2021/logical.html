@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logical Operators</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+  	  var a= true;
+  	  var b= false;
+  	  var c=true;
+  	  var d=false;
+
+      // Both should be true  == true  ( Logical and)
+
+  	  document.write(a && c);  //true 
+      document.write("<br />")  //linebreak
+  	  document.write(a && d);    //false
+  	  document.write("<br />")
+  	  document.write(b && d);   //false
+  	  document.write("<br />") 
+  	  document.write(d && a);  //false
+
+
+     //      ||  (Any one value is True) OR (both values are true) === True 
+     //OW ===false
+
+
+     document.write(a || c);  //true
+
+     document.write("<br />")
+
+     document.write(a || d);  //true
+
+     document.write("<br />")
+
+     document.write(d || a);  //true
+
+     document.write("<br />")
+
+    document.write(b || d);  // false
+
+
+
+
+   //        True==False           (Logical NOT)
+   //        False==True
+
+      var a= true;
+  	  var b= false;
+  	  var c=true;
+  	  var d=false;
+
+     document.write(!a);  // false
+     document.write(!b);   //true
+   
+
+
+  </script>
+
+</body>
+<!-- 
+&&   Both should be true  == true  ( Logical and)
+
+||  Any one value / both values can be True === True   (Logical OR)
+
+!  True==False           (Logical NOT)
+   False==True
+ -->
+</html>
